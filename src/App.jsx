@@ -3,47 +3,71 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 
 const Home = () => (
-  <main className="font-sans text-gray-800 bg-white p-6">
-    <header className="mb-8 text-center">
-      <h1 className="text-3xl font-bold">Barbara Dorneles Martins</h1>
-      <p className="text-sm">Computer Science Student @ PUC Minas</p>
-    </header>
+  <main className="relative bg-gray-100 min-h-screen flex justify-center items-start">
+    {}
+    <div className="fixed top-0 left-0 h-full w-14 bg-white shadow-md z-10" />
 
-    <section className="mb-6">
-      <h2 className="text-xl font-semibold border-b pb-1 mb-2">About Me</h2>
-      <p>
-        I am a motivated Computer Science student passionate about backend development, automation,
-        and cloud technologies. I am currently pursuing certifications in backend and cybersecurity,
-        while also applying what I learn in real-world projects, including AI integrations and Python automation.
-      </p>
-    </section>
+    {}
+    <div className="fixed top-0 right-0 h-full w-14 bg-white shadow-md z-10" />
 
-    <section className="mb-6">
-      <h2 className="text-xl font-semibold border-b pb-1 mb-2">Projects</h2>
-      <ul className="list-disc list-inside">
-        <li><strong>PEX - Academic System</strong>: Backend with Java + PostgreSQL</li>
-        <li><strong>Chatbots & AI</strong>: Discord bots using JS, Dialogflow, Claude API</li>
-        <li><Link to="/projects" className="text-blue-600">See all →</Link></li>
-      </ul>
-    </section>
+    {}
+    <div className="relative z-20 w-full max-w-4xl px-6 py-12">
+      <header className="mb-10 text-center">
+        <h1 className="text-4xl font-serif font-semibold text-gray-900 mb-1">
+          Barbara Dorneles Martins
+        </h1>
+        <p className="text-sm text-gray-500 uppercase tracking-wide">
+          Computer Science Student @ PUC Minas
+        </p>
+      </header>
 
-    <section className="mb-6">
-      <h2 className="text-xl font-semibold border-b pb-1 mb-2">Skills</h2>
-      <ul className="list-disc list-inside">
-        <li>JavaScript / Java / Python</li>
-        <li>SQL / PostgreSQL / Git / C#</li>
-        <li><Link to="/skills" className="text-blue-600">See all →</Link></li>
-      </ul>
-    </section>
+      <section className="mb-12">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">About Me</h2>
+        <p className="text-gray-700 leading-relaxed max-w-3xl font-light text-justify mx-auto">
+          I'm a Computer Science student passionate about <span className="font-medium text-gray-900">backend development</span>,
+          <span className="font-medium text-gray-900"> automation</span>, and <span className="font-medium text-gray-900">cloud technologies</span>.
+          I'm currently working toward certifications in backend and cybersecurity, while actively applying knowledge in real-world projects
+          — from AI integrations to Python-based automation. I value clean code, solid architecture, and continuous learning.
+        </p>
+      </section>
 
-    <section>
-      <h2 className="text-xl font-semibold border-b pb-1 mb-2">Contact</h2>
-      <p>Email: <a href="mailto:barbara.laisdorneles@gmail.com" className="text-blue-600">barbara.laisdorneles@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/barbaradorneles" className="text-blue-600">github.com/barbaradorneles</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/barbaradorneles" className="text-blue-600">linkedin.com/in/barbaradorneles</a></p>
-    </section>
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Projects</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li><strong>PEX - Academic System</strong>: Backend with Java + PostgreSQL</li>
+          <li><strong>Chatbots & AI</strong>: Discord bots using JS, Dialogflow, Claude API</li>
+          <li>
+            <Link to="/projects" className="text-blue-600 hover:underline">See all →</Link>
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Skills</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>JavaScript / Java / Python</li>
+          <li>SQL / PostgreSQL / Git / C#</li>
+          <li>
+            <Link to="/skills" className="text-blue-600 hover:underline">See all →</Link>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <div className="border-t border-gray-300 mb-4" />
+        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Contact</h2>
+        <p className="text-gray-700 mb-2">
+          Email: <a href="mailto:barbara.laisdorneles@gmail.com" className="text-blue-600 hover:underline">barbara.laisdorneles@gmail.com</a>
+        </p>
+        <p className="text-gray-700">
+          GitHub: <a href="https://github.com/BabiDoo" className="text-blue-600 hover:underline">https://github.com/BabiDoo</a>
+        </p>
+      </section>
+    </div>
   </main>
 );
+
+  
 
 const App = () => (
   <Routes>
