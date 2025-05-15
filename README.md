@@ -1,4 +1,4 @@
-# 🌐 Barbara Dorneles – Portfolio
+# 🌐 Hi! I'm Barbara
 
 This is my personal portfolio built with **React + TailwindCSS** and deployed via **GitHub Pages**.
 
@@ -15,10 +15,13 @@ This portfolio showcases my technical skills, main projects, and contact informa
 - Deployed with: [GitHub Pages](https://pages.github.com/)
 
 
-## 🛠️ Running locally
+## Running locally
 
 ```bash
 git clone https://github.com/BabiDoo/im-barbara.git
 cd im-barbara
 npm install
 npm run dev
+```
+
+👋
