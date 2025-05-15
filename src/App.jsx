@@ -24,20 +24,32 @@ const Home = () => (
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">About Me</h2>
         <p className="text-gray-700 leading-relaxed max-w-3xl font-light text-justify mx-auto">
-          I'm a Computer Science student passionate about <span className="font-medium text-gray-900">backend development</span>,
-          <span className="font-medium text-gray-900"> automation</span>, and <span className="font-medium text-gray-900">cloud technologies</span>.
-          I'm currently working toward certifications in backend and cybersecurity, while actively applying knowledge in real-world projects
-          — from AI integrations to Python-based automation. I value clean code, solid architecture, and continuous learning.
+          I'm a Computer Science student passionate about{" "}
+          <span className="font-medium text-gray-900">backend development</span>
+          ,<span className="font-medium text-gray-900"> automation</span>, and{" "}
+          <span className="font-medium text-gray-900">cloud technologies</span>.
+          I'm currently working toward certifications in backend and
+          cybersecurity, while actively applying knowledge in real-world
+          projects — from AI integrations to Python-based automation. I value
+          clean code, solid architecture, and continuous learning.
         </p>
       </section>
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Projects</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
-          <li><strong>PEX - Academic System</strong>: Backend with Java + PostgreSQL</li>
-          <li><strong>Chatbots & AI</strong>: Discord bots using JS, Dialogflow, Claude API</li>
           <li>
-            <Link to="/projects" className="text-blue-600 hover:underline">See all →</Link>
+            <strong>PEX - Academic System</strong>: Backend with Java +
+            PostgreSQL
+          </li>
+          <li>
+            <strong>Chatbots & AI</strong>: Discord bots using JS, Dialogflow,
+            Claude API
+          </li>
+          <li>
+            <Link to="/projects" className="text-blue-600 hover:underline">
+              See all →
+            </Link>
           </li>
         </ul>
       </section>
@@ -48,7 +60,9 @@ const Home = () => (
           <li>JavaScript / Java / Python</li>
           <li>SQL / PostgreSQL / Git / C#</li>
           <li>
-            <Link to="/skills" className="text-blue-600 hover:underline">See all →</Link>
+            <Link to="/skills" className="text-blue-600 hover:underline">
+              See all →
+            </Link>
           </li>
         </ul>
       </section>
@@ -57,17 +71,27 @@ const Home = () => (
         <div className="border-t border-gray-300 mb-4" />
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Contact</h2>
         <p className="text-gray-700 mb-2">
-          Email: <a href="mailto:barbara.laisdorneles@gmail.com" className="text-blue-600 hover:underline">barbara.laisdorneles@gmail.com</a>
+          Email:{" "}
+          <a
+            href="mailto:barbara.laisdorneles@gmail.com"
+            className="text-blue-600 hover:underline"
+          >
+            barbara.laisdorneles@gmail.com
+          </a>
         </p>
         <p className="text-gray-700">
-          GitHub: <a href="https://github.com/BabiDoo" className="text-blue-600 hover:underline">https://github.com/BabiDoo</a>
+          GitHub:{" "}
+          <a
+            href="https://github.com/BabiDoo"
+            className="text-blue-600 hover:underline"
+          >
+            https://github.com/BabiDoo
+          </a>
         </p>
       </section>
     </div>
   </main>
 );
-
-  
 
 const App = () => (
   <Routes>

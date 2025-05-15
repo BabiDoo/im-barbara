@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-weight: 400;
   color-scheme: dark;
@@ -28,7 +28,6 @@ body {
   position: relative;
 }
 
-
 body::before,
 body::after {
   content: "";
@@ -46,9 +45,7 @@ body::after {
   right: 2rem;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 600;
   color: #ffffff;
 }
@@ -64,8 +61,7 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-p,
-li {
+p, li {
   color: #ccc;
   font-size: 1rem;
   max-width: 700px;
