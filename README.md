@@ -13,15 +13,5 @@ This portfolio showcases my technical skills, main projects, and contact informa
 - [TailwindCSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
 - Deployed with: [GitHub Pages](https://pages.github.com/)
-
-
-## Running locally
-
-```bash
-git clone https://github.com/BabiDoo/im-barbara.git
-cd im-barbara
-npm install
-npm run dev
-```
-
+  
 👋
