@@ -2,7 +2,7 @@
 
 This is my personal portfolio built with **React + TailwindCSS** and deployed via **GitHub Pages**.
 
-🔗 [Click here to view online](https://barbaradorneles.github.io/portfolio-barbara)
+🔗 [Click here to view online](https://BabiDoo.github.io/im-barbara)
 
 
 This portfolio showcases my technical skills, main projects, and contact information.
