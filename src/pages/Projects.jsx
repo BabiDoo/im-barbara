@@ -44,6 +44,16 @@ const Projects = () => {
             WebApp - Node.js + MongoDB
           </a>
         </li>
+        <li>
+          <a
+            href="https://github.com/BabiDoo/Dockerizing-NodeJS-Application"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
+          >
+            Dockerizing NodeJS Application
+          </a>
+        </li>
       </ul>
     </main>
   );
